@@ -5,6 +5,7 @@ def input_students
   students = []
   # Get the first name
   name = gets.chomp
+  language = gets.chomp
   # While the name is not empty, repeat this code
   while !name.empty? do
     # Add the student hash to the array
@@ -12,6 +13,7 @@ def input_students
     puts "Now we have #{students.count} students"
     # Get another name from the user
     name = gets.chomp
+    language = gets.chomp
   end
   # Return the array of students
   students
